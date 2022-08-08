@@ -343,3 +343,31 @@ img {
         transform: translateY(0) rotate(15deg);
     }
 }
+
+/* BREAKPOINTS */
+/* FOR SMALL DEVICES */
+@media screen and (max-width: 330px) {
+    .container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .home__images {
+        width: 245px;
+        height: 320px;
+    }
+
+    .home__liquid {
+        width: 250px;
+        left: 0;
+    }
+
+    .home__juice {
+        width: 100px;
+    }
+
+    .home__apple1,
+    .home__apple2 {
+        width: 70px;
+    }
+}
